@@ -1,3 +1,11 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Data.cs](./CS/WindowsFormsApplication1/Data.cs) (VB: [Data.vb](./VB/WindowsFormsApplication1/Data.vb))
+* [Form1.cs](./CS/WindowsFormsApplication1/Form1.cs) (VB: [Form1.vb](./VB/WindowsFormsApplication1/Form1.vb))
+* [Program.cs](./CS/WindowsFormsApplication1/Program.cs) (VB: [Program.vb](./VB/WindowsFormsApplication1/Program.vb))
+* [XtraReport1.cs](./CS/WindowsFormsApplication1/XtraReport1.cs) (VB: [XtraReport1.vb](./VB/WindowsFormsApplication1/XtraReport1.vb))
+<!-- default file list end -->
 # How to print DetailBand multiple times regardless of the number of records
 
 
