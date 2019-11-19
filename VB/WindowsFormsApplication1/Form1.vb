@@ -1,5 +1,4 @@
-﻿Imports Microsoft.VisualBasic
-Imports System
+﻿Imports System
 Imports System.Collections.Generic
 Imports System.ComponentModel
 Imports System.Data
@@ -12,6 +11,7 @@ Imports DevExpress.XtraReports.UI
 Namespace WindowsFormsApplication1
 	Partial Public Class Form1
 		Inherits Form
+
 		Public Sub New()
 			InitializeComponent()
 		End Sub
@@ -25,9 +25,9 @@ Namespace WindowsFormsApplication1
 				list.Add(data)
 			Next i
 
-            Dim report As New XtraReport1()
-            report.DataSource = list
-            report.ShowPreviewDialog()
+			Dim report As New XtraReport1()
+			report.DataSource = list
+			report.ShowPreviewDialog()
 		End Sub
 	End Class
 End Namespace

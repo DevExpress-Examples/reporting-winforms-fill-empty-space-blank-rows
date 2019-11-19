@@ -1,6 +1,4 @@
-﻿Imports Microsoft.VisualBasic
-Imports System
-Namespace WindowsFormsApplication1
+﻿Namespace WindowsFormsApplication1
 	Partial Public Class Form1
 		''' <summary>
 		''' Required designer variable.
@@ -25,31 +23,33 @@ Namespace WindowsFormsApplication1
 		''' the contents of this method with the code editor.
 		''' </summary>
 		Private Sub InitializeComponent()
-            Me.simpleButton1 = New DevExpress.XtraEditors.SimpleButton()
-            Me.SuspendLayout()
-            '
-            'simpleButton1
-            '
-            Me.simpleButton1.Location = New System.Drawing.Point(13, 57)
-            Me.simpleButton1.Name = "simpleButton1"
-            Me.simpleButton1.Size = New System.Drawing.Size(258, 23)
-            Me.simpleButton1.TabIndex = 1
-            Me.simpleButton1.Text = "Preview"
-            '
-            'Form1
-            '
-            Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
-            Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-            Me.ClientSize = New System.Drawing.Size(284, 262)
-            Me.Controls.Add(Me.simpleButton1)
-            Me.Name = "Form1"
-            Me.Text = "Form1"
-            Me.ResumeLayout(False)
+			Me.simpleButton1 = New DevExpress.XtraEditors.SimpleButton()
+			Me.SuspendLayout()
+			' 
+			' simpleButton1
+			' 
+			Me.simpleButton1.Location = New System.Drawing.Point(13, 58)
+			Me.simpleButton1.Name = "simpleButton1"
+			Me.simpleButton1.Size = New System.Drawing.Size(258, 23)
+			Me.simpleButton1.TabIndex = 1
+			Me.simpleButton1.Text = "Preview"
+'INSTANT VB NOTE: The following InitializeComponent event wireup was converted to a 'Handles' clause:
+'ORIGINAL LINE: this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
+			' 
+			' Form1
+			' 
+			Me.AutoScaleDimensions = New System.Drawing.SizeF(6F, 13F)
+			Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+			Me.ClientSize = New System.Drawing.Size(284, 262)
+			Me.Controls.Add(Me.simpleButton1)
+			Me.Name = "Form1"
+			Me.Text = "Form1"
+			Me.ResumeLayout(False)
 
-        End Sub
+		End Sub
 
-#End Region
-        Private WithEvents simpleButton1 As DevExpress.XtraEditors.SimpleButton
-    End Class
+		#End Region
+		Private WithEvents simpleButton1 As DevExpress.XtraEditors.SimpleButton
+	End Class
 End Namespace
 
