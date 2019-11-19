@@ -6,14 +6,8 @@
 * [Program.cs](./CS/WindowsFormsApplication1/Program.cs) (VB: [Program.vb](./VB/WindowsFormsApplication1/Program.vb))
 * [XtraReport1.cs](./CS/WindowsFormsApplication1/XtraReport1.cs) (VB: [XtraReport1.vb](./VB/WindowsFormsApplication1/XtraReport1.vb))
 <!-- default file list end -->
-# How to print DetailBand multiple times regardless of the number of records
+# How to add blank rows and fill the empty space between the Detail band and the next band or the end of the page
 
-
-<p>Sometimes, it is necessary to print a detail section a particular number of times even if the underlying DataSource contains a less number of records. The current version of XtraReports does not allow one to print this section more times than the number of records.</p>
-<p>As a solution for this task, you can clear the report's <a href="http://documentation.devexpress.com/#XtraReports/DevExpressXtraReportsUIXtraReportBase_DataSourcetopic"><u>DataSource</u></a> and <a href="http://documentation.devexpress.com/#XtraReports/DevExpressXtraReportsUIXtraReportBase_DataMembertopic"><u>DataMember</u></a> properties, set the DetailPrintCountOnEmptyDataSource property to the necessary number, and then populate the detail section data manually using the DetailBand's <a href="http://documentation.devexpress.com/#XtraReports/DevExpressXtraReportsUIXRControl_BeforePrinttopic"><u>BeforePrint</u></a> event.</p>
-<p>This example demonstrates this approach in action.</p>
-<p><strong>See also:<br><a href="https://www.devexpress.com/Support/Center/p/T210911">How to repeat the Detail report band multiple times (a data-bound report)</a></strong></p>
-
-<br/>
-
+In the v19.2 release, we supported this scenario and introduced the [DetailBand.FillEmptySpace](%C2%A0%5Bhttps://docs.devexpress.com/XtraReports/DevExpress.XtraReports.UI.DetailBand.FillEmptySpace%5D%5B1%5D) option which allows you to populate a report with blank rows and thus, to fill empty space between [DetailBand](%C2%A0%5Bhttps://docs.devexpress.com/XtraReports/DevExpress.XtraReports.UI.DetailBand.FillEmptySpace%5D%5B1%5D) and the next band/the end of the page. Read more at [Reporting – Populate Empty Space and Display Cross-Band Content (v19.2)](https://community.devexpress.com/blogs/reporting/archive/2019/10/28/reporting-populate-empty-space-and-display-cross-band-content-v19-2.aspx).
+In our documentation, you can find a detailed guide on how to implement such a document layout: [Create a Report with Cross-Band Content and Populated Empty Space](%C2%A0https://docs.devexpress.com/XtraReports/401300/create-popular-reports/create-a-report-with-cross-band-content-and-populated-empty-space) -> [Populate the Empty Space](https://docs.devexpress.com/XtraReports/401300/create-popular-reports/create-a-report-with-cross-band-content-and-populated-empty-space#populate-the-empty-space).
 
