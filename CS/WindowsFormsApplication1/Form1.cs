@@ -28,7 +28,8 @@ namespace WindowsFormsApplication1
                 list.Add(data);
             }
 
-            XtraReport1 report = new XtraReport1(list, Convert.ToInt32(spinEdit1.EditValue));
+            XtraReport1 report = new XtraReport1();
+            report.DataSource = list;
             report.ShowPreviewDialog();
         }
     }

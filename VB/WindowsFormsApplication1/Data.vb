@@ -12,13 +12,13 @@ Namespace WindowsFormsApplication1
 			Price = 0
 		End Sub
 
-		Public Sub New(ByVal name As String, ByVal category As String, ByVal price As Double)
-			Name = name
-			Category = category
-			Price = price
-		End Sub
+        Public Sub New(ByVal nameValue As String, ByVal categoryValue As String, ByVal priceValue As Double)
+            Name = nameValue
+            Category = categoryValue
+            Price = priceValue
+        End Sub
 
-		Private privateName As String
+        Private privateName As String
 		Public Property Name() As String
 			Get
 				Return privateName

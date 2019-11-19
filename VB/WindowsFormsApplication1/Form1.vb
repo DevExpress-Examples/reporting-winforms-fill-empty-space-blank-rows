@@ -25,8 +25,9 @@ Namespace WindowsFormsApplication1
 				list.Add(data)
 			Next i
 
-			Dim report As New XtraReport1(list, Convert.ToInt32(spinEdit1.EditValue))
-			report.ShowPreviewDialog()
+            Dim report As New XtraReport1()
+            report.DataSource = list
+            report.ShowPreviewDialog()
 		End Sub
 	End Class
 End Namespace
