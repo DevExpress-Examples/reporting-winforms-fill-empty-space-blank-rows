@@ -8,6 +8,9 @@
 <!-- default file list end -->
 # How to add blank rows and fill the empty space between the Detail band and the next band or the end of the page
 
-In the v19.2 release, we supported this scenario and introduced the [DetailBand.FillEmptySpace](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.UI.DetailBand.FillEmptySpace) option which allows you to populate a report with blank rows and thus, to fill empty space between [DetailBand](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.UI.DetailBand.FillEmptySpace) and the next band/the end of the page. Read more at [Reporting – Populate Empty Space and Display Cross-Band Content (v19.2)](https://community.devexpress.com/blogs/reporting/archive/2019/10/28/reporting-populate-empty-space-and-display-cross-band-content-v19-2.aspx).
-In our documentation, you can find a detailed guide on how to implement such a document layout: [Create a Report with Cross-Band Content and Populated Empty Space](https://docs.devexpress.com/XtraReports/401300/create-popular-reports/create-a-report-with-cross-band-content-and-populated-empty-space) -> [Populate the Empty Space](https://docs.devexpress.com/XtraReports/401300/create-popular-reports/create-a-report-with-cross-band-content-and-populated-empty-space#populate-the-empty-space).
+In v19.2 we introduced the [DetailBand.FillEmptySpace](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.UI.DetailBand.FillEmptySpace) option that allows you to populate a report with blank rows and fill empty space between the [DetailBand](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.UI.DetailBand) and the next band or the end of the page. 
+
+Review the DevExpress Reporting blog [Reporting – Populate Empty Space and Display Cross-Band Content (v19.2)](https://community.devexpress.com/blogs/reporting/archive/2019/10/28/reporting-populate-empty-space-and-display-cross-band-content-v19-2.aspx) for more information.
+
+For a detailed guide on how to implement the document layout, review the following help topic: [Populate the Empty Space](https://docs.devexpress.com/XtraReports/401300/create-popular-reports/create-a-report-with-cross-band-content-and-populated-empty-space#populate-the-empty-space).
 
