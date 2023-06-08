@@ -149,7 +149,7 @@
 			Me.Bands.AddRange(New DevExpress.XtraReports.UI.Band() { Me.Detail, Me.TopMargin, Me.BottomMargin, Me.PageHeader})
 			Me.ComponentStorage.AddRange(New System.ComponentModel.IComponent() { Me.objectDataSource1})
 			Me.DataSource = Me.objectDataSource1
-			Me.Margins = New System.Drawing.Printing.Margins(100, 99, 100, 100)
+			Me.Margins = New DevExpress.Drawing.DXMargins(100, 99, 100, 100)
 			Me.Version = "19.2"
 			CType(Me.xrTable1, System.ComponentModel.ISupportInitialize).EndInit()
 			CType(Me.xrTable2, System.ComponentModel.ISupportInitialize).EndInit()

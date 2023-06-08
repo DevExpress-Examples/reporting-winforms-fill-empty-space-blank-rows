@@ -33,9 +33,9 @@
             // 
             // simpleButton1
             // 
-            this.simpleButton1.Location = new System.Drawing.Point(13, 58);
+            this.simpleButton1.Location = new System.Drawing.Point(78, 120);
             this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(258, 23);
+            this.simpleButton1.Size = new System.Drawing.Size(129, 23);
             this.simpleButton1.TabIndex = 1;
             this.simpleButton1.Text = "Preview";
             this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
