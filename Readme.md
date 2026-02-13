@@ -21,7 +21,7 @@ This example demonstrates the [DetailBand.FillEmptySpace](https://docs.devexpres
 - [Reporting – Populate Empty Space and Display Cross-Band Content (v19.2)](https://community.devexpress.com/blogs/reporting/archive/2019/10/28/reporting-populate-empty-space-and-display-cross-band-content-v19-2.aspx)
 - [Populate the Empty Space](https://docs.devexpress.com/XtraReports/401300/create-popular-reports/create-a-report-with-cross-band-content-and-populated-empty-space#populate-the-empty-space)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=reporting-winforms-fill-empty-space-blank-rows&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=reporting-winforms-fill-empty-space-blank-rows&~~~was_helpful=no)
 
